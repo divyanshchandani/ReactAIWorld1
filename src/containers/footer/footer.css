@@ -1,0 +1,161 @@
+.footer__main{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.footer__container1-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container1-heading h1{
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    width: 821px;
+}
+
+.footer__container2-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.footer__container2-button p{
+    color: white;
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: left;
+    font-family: var(--font-family);
+    word-spacing: 2px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.footer__container2-button p:hover{
+    text-decoration: underline;
+}
+
+.footer__container3-links{
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer__container3-links div{
+    width: 250px;
+    margin: 1rem;
+}
+
+.footer__container3-links__logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container3-links__logo img{
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.footer__container3-links__logo p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    width: 168px;
+}
+
+.footer__container3-links__div1 ,
+.footer__container3-links__div2 ,
+.footer__container3-links__div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer__container3-links__div1 h4,
+.footer__container3-links__div2 h4,
+.footer__container3-links__div3 h4{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.footer__container3-links__div1 p,
+.footer__container3-links__div2 p,
+.footer__container3-links__div3 p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer__container3-links__div2 p:hover,
+.footer__container3-links__div1 p:hover,
+.footer__container3-links__div3 p:hover{
+    text-decoration: underline;
+}
+
+.footer__container4{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 850px){
+    .footer__container1-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .footer__container1-heading h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .footer__container3-links div{
+        margin: 1rem 0;
+    }
+    .footer__container2-button p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .footer__container1-heading h1{
+        font-size: 27px;
+        line-height: 38px;
+    }
+}

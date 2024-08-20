@@ -1,0 +1,83 @@
+.cta__main{
+    background: var(--gradient-bar);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+}
+
+.cta__container1-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta__container1-content p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0E0E0E;
+    
+}
+
+.cta__container1-content h3{
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    color: #000000;
+}
+
+.cta__container2-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.cta__container2-button button{
+    background:  #000000;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .cta__main {
+        flex-direction: column;
+    }
+
+    .cta__container2-button {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cta__main {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .cta__container1-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .cta__container2-button button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
